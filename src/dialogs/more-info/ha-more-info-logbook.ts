@@ -4,7 +4,6 @@ import { isComponentLoaded } from "../../common/config/is_component_loaded";
 import { computeStateDomain } from "../../common/entity/compute_state_domain";
 import { throttle } from "../../common/util/throttle";
 import "../../components/ha-circular-progress";
-import "../../components/chart/state-history-charts";
 import { getLogbookData, LogbookEntry } from "../../data/logbook";
 import { loadTraceContexts, TraceContexts } from "../../data/trace";
 import "../../panels/logbook/ha-logbook";
